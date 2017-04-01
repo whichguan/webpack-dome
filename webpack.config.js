@@ -1,10 +1,10 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './app/index.js',
+    entry: './app/index/index.js',
     output: {
         path: __dirname,
-        filename: './dist/bundle.js'
+        filename: './dist/index/index.js'
     },
     module: {
         loaders: [
@@ -13,6 +13,6 @@ module.exports = {
          ]
     },
     plugins: [
-        new webpack.BannerPlugin('This file is created by which 222')
+        new webpack.BannerPlugin('This file is created by which guan 2017/4/1')
     ]
 }
